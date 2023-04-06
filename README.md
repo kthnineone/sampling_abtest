@@ -1,4 +1,4 @@
-Four Sampling Methods for A/B Test
+# Four Sampling Methods for A/B Test
 
 1. SRS (Simple Random Sampling) WITHOUT Replacement
 2. Systematic Sampling

@@ -36,8 +36,8 @@ Divided data into odd numbered and even numbered and sample them with the size n
 Sample the data from partitioned sub-populations.  
 At first, divide the population with size N into H strata, each stratum h with size $N_h$. ${\sum_{h}}^{H}{N_h} = N$. We sample $n_h$ from each stratum h.  
 Sample mean of each stratum is defined as $\overline{y_{\it h}} = \frac{1}{n_h}\sum_{i \in S_h}y_{hj}$ and the se is $s^2_{h} = \sum_{j \in S_h}\frac{{(y_{hj} - \bar{y_h})}^2}{{n_h}-1}$.
-And then $\bar{{y}_{str}} = {\sum_{h=1}}^{H} \frac{N_h}{N} \bar{y_h}$.  
-&nbsp;  
+And then $\bar{y_{str}} = {\sum_{h=1}}^{H} \frac{N_h}{N} \bar{y_h}$.  
+
 
 |Source|df|Sum of Squares|
 |---------------|-----|----------------------------------------------|
@@ -45,7 +45,7 @@ And then $\bar{{y}_{str}} = {\sum_{h=1}}^{H} \frac{N_h}{N} \bar{y_h}$.
 |Within strata|N-H| $SSW = {\sum_{h=1}^{H}} \sum_{j=1}^{N_h}(\bar{y}_{hj}-\bar{y}_{hU})^2$|
 |Total|N-1| $SST = {\sum_{h=1}^{H}} \sum_{j=1}^{N_h}(\bar{y}_{hj}-\bar{y}_{U})^2$|  
 
-&nbsp;  
+ 
 If SSB < ${\sum_{h=1}^{H}}(1- \frac{N_h}{N})S_h^2$, then Stratified Sampling always has smaller variance than SRS.
 
 
@@ -59,7 +59,7 @@ Estimated total for psu $i$ is defined as $\hat{t_i} = \sum_{j \in S_i}\frac{M_i
 Unbiased estimator for population total is defined as $\hat{t_{unb}} = \sum_{i \in S}\frac{N}{n}\hat{t_i}$.  
 Sample variance of population total is defined as $s_t^2 = \sum_{i \in S}(\hat{t_i}-\frac{\hat{t_{unb}}}{N})^2$.  
 In One-stage cluster sampling, the se of $\hat{\bar{y}}$ is $\frac{1}{M}\sqrt{(1-\frac{n}{N})\frac{s_t^2}{n}}$.  
-&nbsp;  
+ 
 
 |Source|df|Sum of Squares|
 |---------------|-----|----------------------------------------------|
@@ -67,7 +67,7 @@ In One-stage cluster sampling, the se of $\hat{\bar{y}}$ is $\frac{1}{M}\sqrt{(1
 |Within ssus|N(M-1)|$SSW = {\sum_{i=1}}^{N}\sum_{j=1}^{M}(\bar{y}_{ij}-\bar{y}_{iU})^2$|
 |Total|NM-1|$SST = {\sum_{i=1}}^{N}\sum_{j=1}^{M}(\bar{y}_{ij}-\bar{y}_{U})^2$|  
   
-&nbsp;  
+ 
 Intraclass (or intracluster) correlation coefficient (ICC) tells us how similar elements in the same cluster are. It provides a measure of homogeneity within the clsuters.  
 ICC = 1 - $\frac{M}{M-1}\frac{SSW}{SST}$ and $-\frac{1}{M-1} \leq ICC \leq 1$.  
 If the elemnts in each cluster are similar and the sum of squares are small, then ICC gets smaller value, on the other hand if the elements are not similart, and ICC gets bigger. If ICC is negative value, cluster sampling is more efficient than SRS.  

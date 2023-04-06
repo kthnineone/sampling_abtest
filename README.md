@@ -46,7 +46,7 @@ And then $\bar{y_{str}} = {\sum_{h=1}}^{H} \frac{N_h}{N} \bar{y_h}$.
 |Total|N-1| $SST$ $= {\sum_{h=1}}^{H}$ ${\sum_{j=1}}^{N_h}$ $({\bar{y}_{hj}} - {\bar{y}_{U}})^2$ |  
 
  
-If SSB < ${\sum_{h=1}^{H}}(1- \frac{N_h}{N})S_h^2$, then Stratified Sampling always has smaller variance than SRS.
+If SSB < ${\sum_{h=1}}^{H}(1- \frac{N_h}{N})S_h^2$, then Stratified Sampling always has smaller variance than SRS.
 
 
 ## 4. Cluster Sampling  

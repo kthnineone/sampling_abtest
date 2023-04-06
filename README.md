@@ -42,8 +42,8 @@ And then $\bar{y_{str}} = {\sum_{h=1}}^{H} \frac{N_h}{N} \bar{y_h}$.
 |Source|df|Sum of Squares|
 |---------------|-----|--------------------------------------------------------|
 |Between strata|H-1| $SSB$ $= {\sum_{h=1}}^{H} {\sum_{j=1}}^{N_h}$$(\bar{y}_{hU}-\bar{y}_U)^2$ |
-|Within strata|N-H| $SSW$ $= {\sum_{h=1}^{H}}$ ${\sum_{j=1}}^{N_h}$$(\bar{y}_{hj}-\bar{y}_{hU})^2$ |
-|Total|N-1| $SST$ $= {\sum_{h=1}^{H}}$ ${\sum_{j=1}}^{N_h}$$(\bar{y}_{hj}-\bar{y}_{U})^2$ |  
+|Within strata|N-H| $SSW$ $= {\sum_{h=1}}^{H}$ ${\sum_{j=1}}^{N_h}$$(\bar{y}_{hj}-\bar{y}_{hU})^2$ |
+|Total|N-1| $SST$ $= {\sum_{h=1}}^{H}$ ${\sum_{j=1}}^{N_h}$$(\bar{y}_{hj}-\bar{y}_{U})^2$ |  
 
  
 If SSB < ${\sum_{h=1}^{H}}(1- \frac{N_h}{N})S_h^2$, then Stratified Sampling always has smaller variance than SRS.
@@ -63,9 +63,9 @@ In One-stage cluster sampling, the se of $\hat{\bar{y}}$ is $\frac{1}{M}\sqrt{(1
 
 |Source|df|Sum of Squares|
 |---------------|-----|----------------------------------------------|
-|Between psus|N-1|$SSB = {\sum_{i=1}}^{N}\sum_{j=1}^{M}(\bar{y}_{iU}-\bar{y}_U)^2$|
-|Within ssus|N(M-1)|$SSW = {\sum_{i=1}}^{N}\sum_{j=1}^{M}(\bar{y}_{ij}-\bar{y}_{iU})^2$|
-|Total|NM-1|$SST = {\sum_{i=1}}^{N}\sum_{j=1}^{M}(\bar{y}_{ij}-\bar{y}_{U})^2$|  
+|Between psus|N-1|$SSB = {\sum_{i=1}}^{N} {\sum_{j=1}}^{M}(\bar{y}_{iU}-\bar{y}_U)^2$|
+|Within ssus|N(M-1)|$SSW = {\sum_{i=1}}^{N} {\sum_{j=1}}^{M}(\bar{y}_{ij}-\bar{y}_{iU})^2$|
+|Total|NM-1|$SST = {\sum_{i=1}}^{N} {\sum_{j=1}}^{M}(\bar{y}_{ij}-\bar{y}_{U})^2$|  
   
  
 Intraclass (or intracluster) correlation coefficient (ICC) tells us how similar elements in the same cluster are. It provides a measure of homogeneity within the clsuters.  

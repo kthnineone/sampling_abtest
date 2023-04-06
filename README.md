@@ -6,12 +6,12 @@ Here default setting is WITHOUT replacement sampling.
 
 It is inspired by Sharon L. Lohr, Sampling: Design and Analyis, 2nd edition, 2009, Routledge. Also Wikipedia is another reference.
 
-1. SRS (Simple Random Sampling) WITHOUT Replacement
+1. SRS (Simple Random Sampling)
 2. Systematic Sampling
 3. Stratified Sampling
 4. Cluster Sampling
 
-## 1. SRS (Simple Random Sampling) WITHOUT Replacement
+## 1. SRS (Simple Random Sampling)
 
 
 Samples of size n are chosen from the population with the same chance.  

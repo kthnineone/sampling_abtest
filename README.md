@@ -41,7 +41,7 @@ And then $\bar{y_{str}} = {\sum_{h=1}}^{H} \frac{N_h}{N} \bar{y_h}$.
 
 |Source|df|Sum of Squares|
 |---------------|-----|--------------------------------------------------------|
-|Between strata|H-1| $SSB$ $= {\sum_{h=1}}^{H} {\sum_{j=1}}^{N_h}$$({\bar{y}_{hU}} - \bar{y}_U)^2$ |
+|Between strata|H-1| $SSB$ $= {\sum_{h=1}}^{H} {\sum_{j=1}}^{N_h}$$({\bar{y}_{hU}} - \bar{{y}_U})^2$ |
 |Within strata|N-H| $SSW$ $= {\sum_{h=1}}^{H}$ ${\sum_{j=1}}^{N_h}$$(\bar{y}_{hj} - \bar{y}_{hU})^2$ |
 |Total|N-1| $SST$ $= {\sum_{h=1}}^{H}$ ${\sum_{j=1}}^{N_h}$$(\bar{y}_{hj} - \bar{y}_{U})^2$ |  
 

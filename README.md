@@ -3,13 +3,21 @@
 Four sampling methods are presented.
 SRS (Simple Random Sampling), Stratified Sampling, Cluster Sampling, Systematic Sampling.
 Here default setting is WITHOUT replacement sampling.
-
-It is inspired by Sharon L. Lohr, Sampling: Design and Analyis, 2nd edition, 2009, Routledge. Also Wikipedia is another reference.
+Sample Size Estimation function is also in this package.
 
 1. SRS (Simple Random Sampling)
 2. Systematic Sampling
 3. Stratified Sampling
 4. Cluster Sampling
+5. Sample Size Estimation
+
+Required Packages
++ pandas
++ SciPy
+
+
+It is inspired by Sharon L. Lohr, Sampling: Design and Analyis, 2nd edition, 2009, Routledge. Also Wikipedia is another reference.
+
 
 ## 1. SRS (Simple Random Sampling)
 
